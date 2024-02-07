@@ -1,7 +1,5 @@
 #include <ctype.h>
-#include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 const char *window_manager() {
     char *session = getenv("XDG_SESSION_DESKTOP");
