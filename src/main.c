@@ -79,5 +79,7 @@ int main(int argc, char **argv) {
     }
     printf("%s\n", RESET);
 
+    free((void *) t);
+
     return 0;
 }
